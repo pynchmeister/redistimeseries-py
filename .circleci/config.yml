@@ -68,7 +68,7 @@ executors:
         default: "edge"
         type: string
     docker:
-      - image: circleci/python:<<parameters.python_version>>
+      - image: cimg/python:<<parameters.python_version>>
       - image: redislabs/redistimeseries:<<parameters.redistimeseries_version>>
 
 jobs:
